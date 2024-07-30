@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #FF6F91;
+  }
+  
+  .logo img {
+    height: 50px;
+  }

@@ -1,0 +1,30 @@
+.intro {
+    color: white;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .highlight {
+    background: yellow;
+    color: black;
+    padding: 0 0.2rem;
+  }
+  
+  .contact-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #FF6F91;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
