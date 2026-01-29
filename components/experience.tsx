@@ -2,21 +2,19 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import Image from "next/image"
 
 const experiences = [
     {
     id: 1,
-    company: "GMU CS Club",
-    position: "Full-Stack Engineer",
-    duration: "July 2025 – Present",
+    company: "HackFax - The GMU CS Club Hackathon",
+    position: "Lead Engineer",
+    duration: "Sep 2025 – Present",
     location: "In-Person",
     type: "Leadership",
-    logo: "/portfolio/images/csclub.jpg",
+    logo: "/portfolio/images/hackfax.jpg",
     description: [
-      "Website",
-      "Social Media Managment",
-      "etc..."
+      "Developed official site for George Mason University's MLH-Backed Hackathon",
+      "Visit here: https://www.hackfaxpatriothacks.org"
     ],
   },
   {
@@ -51,20 +49,6 @@ const experiences = [
        "Deployed Qdrant vector database and Tree-sitter multi-language parsing for automated code analysis",
        "Enabled automated generation of user stories, unit tests, and microservice templates, reducing analysis time by 80%"
      ],
-  },
-  {
-    id: 4,
-    company: "George Mason University",
-    position: "Hackathon Software Developer",
-    duration: "Oct 2024 – Mar 2025",
-    location: "In-Person",
-    type: "Leadership",
-    logo: "/portfolio/images/hackfax.jpg",
-    description: [
-      "Leading a team of 5 to develop and optimize the coding section for a large-scale hackathon",
-      "Leveraging collaborative tools to ensure seamless execution and enhance participant experience",
-      "Managing project timelines and coordinating with multiple stakeholders",
-    ],
   },
   {
     id: 5,
@@ -132,7 +116,7 @@ export default function Experience() {
                   <div className="flex flex-col md:flex-row md:items-start gap-4 mb-4">
                     <div className="flex items-center gap-3 flex-1">
                       <div className="hidden sm:block">
-                        <Image
+                        <img
                           src={exp.logo}
                           alt={`${exp.company} logo`}
                           width={56}
